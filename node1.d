@@ -1,0 +1,9 @@
+.\node1.o: node1.c
+.\node1.o: C:\Keil\ARM\Inc\Philips\LPC21xx.h
+.\node1.o: adc.h
+.\node1.o: adc_defines.h
+.\node1.o: delay.h
+.\node1.o: can.h
+.\node1.o: types.h
+.\node1.o: lcd.h
+.\node1.o: types.h

@@ -1,0 +1,22 @@
+*** Creating Trace Output File 'AUTOMOTIVE PARAMETER MONITORING.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"can.o"'
+### List of Objects: adding '"node2.o"'
+### List of Objects: adding '"delay.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "can.o" "node2.o" "delay.o" --strict --scatter "AUTOMOTIVE PARAMETER MONITORING.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\AUTOMOTIVE PARAMETER MONITORING.map" -o "AUTOMOTIVE PARAMETER MONITORING.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'AUTOMOTIVE PARAMETER MONITORING.axf'
+### ADS-LD Command File: 'AUTOMOTIVE PARAMETER MONITORING.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'AUTOMOTIVE PARAMETER MONITORING.lnp', Handle=0x0000032C
+### Writing '.lnp' file
+### ADS-LD Command file 'AUTOMOTIVE PARAMETER MONITORING.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

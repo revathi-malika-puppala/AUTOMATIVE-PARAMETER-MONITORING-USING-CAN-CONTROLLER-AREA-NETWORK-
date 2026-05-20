@@ -1,0 +1,127 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\v25he4y1\ARM\Major Project\AUTOMOTIVE PARAMETER MONITORING.uvproj
+Project File Date:  03/09/2026
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+main.c(27): error:  #20: identifier "VICVectAdr" is undefined
+main.c:         VICVectAdr = 0;
+main.c:         ^
+main.c(30): error:  #247: function "eint0_isr" has already been defined
+main.c:   void eint0_isr(void) __irq
+main.c:        ^
+main.c(42): error:  #20: identifier "VICVectAdr" is undefined
+main.c:         VICVectAdr = 0;
+main.c:         ^
+main.c(48): error:  #20: identifier "EINT0_VIC_CHNO" is undefined
+main.c:         VICIntEnable = (1<<EINT0_VIC_CHNO)|(1<<EINT1_VIC_CHNO);
+main.c:                            ^
+main.c(52): error:  #20: identifier "eint1_isr" is undefined
+main.c:         VICVectAddr1 = (unsigned int) eint1_isr;
+main.c:                                       ^
+main.c: main.c: 0 warnings, 5 errors
+compiling can.c...
+compiling delay.c...
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(27): error:  #20: identifier "VICVectAdr" is undefined
+main.c:         VICVectAdr = 0;
+main.c:         ^
+main.c(42): error:  #20: identifier "VICVectAdr" is undefined
+main.c:         VICVectAdr = 0;
+main.c:         ^
+main.c(48): error:  #20: identifier "EINT0_VIC_CHNO" is undefined
+main.c:         VICIntEnable = (1<<EINT0_VIC_CHNO)|(1<<EINT1_VIC_CHNO);
+main.c:                            ^
+main.c: main.c: 0 warnings, 3 errors
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(27): error:  #20: identifier "VICVectAdr" is undefined
+main.c:         VICVectAdr = 0;
+main.c:         ^
+main.c(42): error:  #20: identifier "VICVectAdr" is undefined
+main.c:         VICVectAdr = 0;
+main.c:         ^
+main.c(48): error:  #20: identifier "EINT1_VIC_CHNO" is undefined
+main.c:         VICIntEnable = (1<<EINT0_VIC_CHNO)|(1<<EINT1_VIC_CHNO);
+main.c:                                                ^
+main.c: main.c: 0 warnings, 3 errors
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(27): error:  #20: identifier "VICVectAdr" is undefined
+main.c:         VICVectAdr = 0;
+main.c:         ^
+main.c(42): error:  #20: identifier "VICVectAdr" is undefined
+main.c:         VICVectAdr = 0;
+main.c:         ^
+main.c(48): error:  #20: identifier "EINT1_VIC_CHNO" is undefined
+main.c:         VICIntEnable = (1<<EINT0_VIC_CHNO)|(1<<EINT1_VIC_CHNO);
+main.c:                                                ^
+main.c: main.c: 0 warnings, 3 errors
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(27): error:  #20: identifier "VICVectAdr" is undefined
+main.c:         VICVectAdr = 0;
+main.c:         ^
+main.c(42): error:  #20: identifier "VICVectAdr" is undefined
+main.c:         VICVectAdr = 0;
+main.c:         ^
+main.c: main.c: 0 warnings, 2 errors
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(27): error:  #20: identifier "VICVectAdr" is undefined
+main.c:         VICVectAdr = 0;
+main.c:         ^
+main.c: main.c: 0 warnings, 1 error
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=1632 RO-data=32 RW-data=8 ZI-data=1272  
+"AUTOMOTIVE PARAMETER MONITORING.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=1632 RO-data=32 RW-data=8 ZI-data=1272  
+"AUTOMOTIVE PARAMETER MONITORING.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling node2.c...
+node2.c(24): error:  #20: identifier "IOCLR0xff" is undefined
+node2.c:                                IOCLR0xff;
+node2.c:                                ^
+node2.c: node2.c: 0 warnings, 1 error
+Target not created
+Build target 'Target 1'
+compiling node2.c...
+linking...
+Program Size: Code=1544 RO-data=16 RW-data=0 ZI-data=1272  
+"AUTOMOTIVE PARAMETER MONITORING.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling node2.c...
+linking...
+Program Size: Code=1504 RO-data=16 RW-data=0 ZI-data=1272  
+"AUTOMOTIVE PARAMETER MONITORING.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=1504 RO-data=16 RW-data=0 ZI-data=1272  
+FromELF: creating hex file...
+"can_project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=1632 RO-data=32 RW-data=8 ZI-data=1272  
+FromELF: creating hex file...
+"can_project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=1632 RO-data=32 RW-data=8 ZI-data=1272  
+FromELF: creating hex file...
+"can_project.axf" - 0 Error(s), 0 Warning(s).

@@ -1,0 +1,13 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\can.o"
+".\delay.o"
+".\lcd.o"
+".\ds18b20.o"
+".\adc1.o"
+".\node1.o"
+".\interrupts.o"
+--strict --scatter ".\can_project.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\can_project.map" -o .\can_project.axf

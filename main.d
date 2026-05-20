@@ -1,0 +1,11 @@
+.\main.o: main.c
+.\main.o: C:\Keil\ARM\Inc\Philips\LPC21xx.h
+.\main.o: lcd.h
+.\main.o: types.h
+.\main.o: delay.h
+.\main.o: types.h
+.\main.o: defines.h
+.\main.o: can.h
+.\main.o: types.h
+.\main.o: ds18b20.h
+.\main.o: interrupts.h

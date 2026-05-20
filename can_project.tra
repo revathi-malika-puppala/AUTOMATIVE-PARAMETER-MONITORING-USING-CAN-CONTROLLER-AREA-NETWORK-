@@ -1,0 +1,26 @@
+*** Creating Trace Output File 'can_project.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"can.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"lcd.o"'
+### List of Objects: adding '"ds18b20.o"'
+### List of Objects: adding '"adc1.o"'
+### List of Objects: adding '"interrupts.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "main.o" "can.o" "delay.o" "lcd.o" "ds18b20.o" "adc1.o" "interrupts.o" --strict --scatter "can_project.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\can_project.map" -o "can_project.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'can_project.axf'
+### ADS-LD Command File: 'can_project.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'can_project.lnp', Handle=0x00000144
+### Writing '.lnp' file
+### ADS-LD Command file 'can_project.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
